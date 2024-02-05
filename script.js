@@ -1,4 +1,4 @@
-cript src="C:\Users\Mahdi\Desktop\Dev/script.js"></script>
+<script src="C:\Users\Mahdi\Desktop\Dev/script.js"></script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
