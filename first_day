@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="todof.png">
+    <title>cours du 06/02/2024</title>
+    <!-- Lier le CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Lier le JavaScript -->
+    <script src="script.js"></script>
+    <meta name="Description" content="FAN PAGE DE naruto!!"> 
+</head>
+<body>
+    <h1>Naruto</h1>
+
+    <div class="centext">
+        <p class="txtbl">Wife</p>
+        <p class="txtbl">Hinata Uzumaki (うずまきヒナタ, Uzumaki Hinata, née Hyûga (日向)) est une kunoichi du clan Hyûga du village de Konoha et un membre de l'Équipe Kurenaï.</p>
+        
+        <!-- Id doit être unique -->
+        <div id="friend">
+            <img src="D:\MAHDI\Downloads\sasuke.jpg" alt="Sasuke">
+            <a href="https://youtube.com/shorts/S6visw_ts28?si=zXJr9Ng-ZmI5Jau4">View the video</a>
+            <p>Sharingan!!!</p>
+            <input class="sharingan" type="image" src="D:\MAHDI\Downloads\sharingan.png" value="gengutsu" onclick="gengutsu()">
+            <p id="gengutsu">0</p>
+            <p id="aaaaaa"></p>
+        </div>
+
+        <div class="centext">
+            <form>
+                <h2>Rejoins-nous !</h2>
+                <input type="text" name="name" placeholder="Donne nous ton Nom">
+                <input type="email" name="email" placeholder="Ton adresse mail aussi">
+               
+                <fieldset>
+                    <legend>Choisissez votre aspiration :</legend>
+                    <input type="radio" id="ninja" name="aspiration" value="ninja" checked>
+                    <label for="ninja">Devenir un puissant ninja</label>
+                    <input type="radio" id="sensei" name="aspiration" value="sensei">
+                    <label for="sensei">Devenir un sage sensei</label>
+                    <input type="radio" id="kage" name="aspiration" value="kage">
+                    <label for="kage">Devenir un Kage respecté</label>
+                </fieldset>
+
+                <!-- Menu déroulant -->
+                <div class="centerques">
+                    <select name="Choix de mission" id="mission-select">
+                        <option value="">--Choisissez votre mission--</option>
+                        <option value="mission1">Mission de reconnaissance</option>
+                        <option value="mission2">Mission d'infiltration</option>
+                        <option value="mission3">Mission de protection</option>
+                        <option value="mission4">Mission de sabotage</option>
+                        <option value="mission5">Mission d'escorte</option>
+                        <option value="mission6">Mission de sauvetage</option>
+                        <option value="mission7">Mission d'élimination</option>
+                    </select>
+                    <p>Date de début de mission :</p>
+                    <input type="date" value="2024-02-06">
+                    <p>Message pour le commandant :</p>
+                    <textarea name="message" placeholder="Entrez votre message"></textarea>
+                    <p>Préparez-vous et soyez vigilants...</p>
+                    <input type="file" accept="image/png, image/jpeg">
+                    <br>
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="centext">
+        <h2>Deux nouvelles idées</h2>
+        <ul>
+            <li>Organiser un tournoi de combat entre ninjas</li>
+            <li>Créer une équipe de recherche pour trouver des artefacts anciens</li>
+        </ul>
+        <p>Pour visionner un épisode de Naruto, <a href="https://animationdigitalnetwork.fr/video/naruto">cliquez ici</a>.</p>
+    </div>
+</body>
+</html>
