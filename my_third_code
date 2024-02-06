@@ -10,29 +10,29 @@
         <h2>Inscription</h2>
         <h3>contact</h3>
         <h4>activité</h4>
-        <p>
+          <p>
             <a href="https://i.pinimg.com/550x/bb/dd/f7/bbddf742bbc6fee29dcf8823813669c6.jpg" alt="Drapeau Kabyle (zoom)" title="Amazigh (zoom)">
-                <img src="https://example.com/image_amzigh.png" alt="Drapeau kabyle (normal)" title="Amazigh (normal)">
+            <img src="https://example.com/image_amzigh.png" alt="Drapeau kabyle (normal)" title="Amazigh (normal)">
             </a>       
-        </p>
-        <p>
+          </p>
+          <p>
             <a href="https://fr.wikipedia.org/wiki/Berb%C3%A8res">Amazigh aqvayli</a>
-        </p>
-        <form action="submitform.HTML" method="post">
-        <div class="champ">
-            <label for="pseudo">Azwaw</label>
-            <input type="text" name="name" id="name">
-        </div>
-        <div class="champ2">
-            <label for="mdp">Pa@sword</label>
-            <input type="password" name="mdp" id="mdp">
-        </div>
-        <div class="champ">
-            <label for="mdp2">Pa@sword</label>
-            <input type="password" name="mdp2" id="mdp2">
-        </div>
+          </p>
+           <form action="submitform.HTML" method="post">
+             <div class="champ">
+               <label for="pseudo">Azwaw</label>
+               <input type="text" name="name" id="name">
+             </div>
+             <div class="champ2">
+               <label for="mdp">Pa@sword</label>
+               <input type="password" name="mdp" id="mdp">
+             </div>
+            <div class="champ">
+               <label for="mdp2">Pa@sword</label>
+               <input type="password" name="mdp2" id="mdp2">
+            </div>
         </form>
 
-    </body>
-
+  </body>
+</html>
 
