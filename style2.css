@@ -1,84 +1,244 @@
+body {
+    font-family: 'lato', Tahoma, sans-serif;
+    font-size: 81.25%;
+    background-color: #B7E1E4;
+    margin: 0;
+}
+
 h1 {
-    text-align: center;
-    color: #FF4500;
-    font-size: 32px;
-    margin-bottom: 20px;
+    color: #000000ff;
+    font-size: 2em;
 }
 
-.txtbl {
-    font-style: italic;
-}
-
-#wife img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto 20px;
-}
-
-#wife a {
-    display: block;
-    text-align: center;
-    color: #4682B4;
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
-.sharingan {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-#mission-select {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 20px;
+p {
+    color: #000000ff;
+    font-size: 1em;
 }
 
 a {
-    color: #008000;
+    color: #0000ffff;
     text-decoration: none;
 }
 
-.centext {
-    text-align: center;
-    margin-bottom: 30px;
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="submit"] {
+    background-color: #00848eff;
+    color: #ffffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #006971ff;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
-input[type="submit"] {
-    background-color: #FF4500;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-#mission-select option {
-    color: #333;
+li {
+    margin-bottom: 5px;
 }
 
 legend {
     font-weight: bold;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.centext {
+    text-align: center;
+}
+
+.centerques {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #55b9c4ff;
+    outline: none;
+}
+
+#friend {
+    margin-bottom: 20px;
+}
+
+.sharingan {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+#gengutsu {
+    font-weight: bold;
+    color: #00848eff;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffffff;
+    color: #000000ff;
+    cursor: pointer;
+}
+
+input[type="date"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #00848eff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.block {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.inline {
+    display: inline;
+    margin-right: 10px;
+}
+
+textarea {
+    min-height: 100px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.border {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.button-style {
+    background-color: #00848eff;
+    color: #ffffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    background-color: #006971ff;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #00848eff;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+th {
+    background-color: #00848eff;
+    color: #ffffffff;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.special {
+    font-style: italic;
+}
+
+#unique {
+    font-weight: bold;
+    color: #ff0000ff;
+}
+
+.hover:hover {
+    background-color: #f0f0f0;
+}
+
+.clicked:active {
+    color: #ff0000ff;
+}
+
+.visited:visited {
+    color: #800080ff;
+}
