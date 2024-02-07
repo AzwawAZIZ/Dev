@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="naruto.png">
+    <title>Fan Page Naruto</title>
+    <!-- Lier le CSS -->
+    <link rel="stylesheet" href="style3.css">
+    <!-- Lier le JavaScript -->
+    <script src="script.js"></script>
+    <meta name="description" content="Fan Page de Naruto !!"> 
+</head>
+<body>
+    <header>
+        <h1>Naruto Shippuden</h1>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h2>Hinata Uzumaki</h2>
+                <p class="txtbl">Hinata Uzumaki (うずまきヒナタ, Uzumaki Hinata, née Hyûga (日向)) est une kunoichi du clan Hyûga du village de Konoha et un membre de l'Équipe Kurenaï.</p>
+                <div id="wife">
+                    <img src="D:\MAHDI\Downloads\Hinata-PNG-Image-HD.png" alt="Hinata Uzumaki">
+                    <a href="https://youtube.com/shorts/lHlfjbKgG2o?si=V6EV8MAOD8i1Jxuy">Ne regardez pas s'il vous plaît</a>
+                    <p>Byakugan!</p>
+                    <input class="byakugan" type="image" src="D:\MAHDI\Downloads\byakugan.png" value="byakugan" onclick="byakugan()">
+                    <p id="byakuganCount">0</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Rejoins-nous !</h2>
+                <form>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" placeholder="Entrez votre nom">
+                    
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="Entrez votre email">
+                    
+                    <fieldset>
+                        <legend>Choisissez votre aspiration :</legend>
+                        <input type="radio" id="ninja" name="aspiration" value="ninja" checked>
+                        <label for="ninja">Devenir un puissant ninja</label>
+                        <input type="radio" id="sensei" name="aspiration" value="sensei">
+                        <label for="sensei">Devenir un sage sensei</label>
+                        <input type="radio" id="kage" name="aspiration" value="kage">
+                        <label for="kage">Devenir un Kage respecté</label>
+                    </fieldset>
+
+                    <label for="mission">Choix de mission :</label>
+                    <select name="mission" id="mission">
+                        <option value="">--Choisissez votre mission--</option>
+                        <option value="mission1">Mission de reconnaissance</option>
+                        <option value="mission2">Mission d'infiltration</option>
+                        <option value="mission3">Mission de protection</option>
+                        <option value="mission4">Mission de sabotage</option>
+                        <option value="mission5">Mission d'escorte</option>
+                        <option value="mission6">Mission de sauvetage</option>
+                        <option value="mission7">Mission d'élimination</option>
+                    </select>
+
+                    <label for="startDate">Date de début de mission :</label>
+                    <input type="date" id="startDate" name="startDate" value="2024-02-06">
+                    
+                    <label for="message">Message pour le commandant :</label>
+                    <textarea id="message" name="message" placeholder="Entrez votre message"></textarea>
+                    
+                    <p>Préparez-vous et soyez vigilants...</p>
+                    <input type="file" id="upload" accept="image/*">
+                    
+                    <input type="submit" value="Envoyer">
+                </form>
+            </section>
+        </article>
+
+        <aside>
+            <h2>Techniques de combat</h2>
+            <ul>
+                <li>Technique de clonage de l'ombre</li>
+                <li>Technique du rasengan</li>
+                <li>Technique du chidori</li>
+                <li>Technique de manipulation du chakra</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fan Page Naruto - Tous les droits sont réservés.</p>
+    </footer>
+</body>
+</html>
