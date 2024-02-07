@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+    color: #FF4500;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.txtbl {
+    font-style: italic;
+}
+
+#friend img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#friend a {
+    display: block;
+    text-align: center;
+    color: #4682B4;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.sharingan {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#mission-select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+a {
+    color: #008000;
+    text-decoration: none;
+}
+
+.centext {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #FF4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mission-select option {
+    color: #333;
+}
+
+legend {
+    font-weight: bold;
+}
+
