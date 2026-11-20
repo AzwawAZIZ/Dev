@@ -4,7 +4,7 @@
   "private": true,
   "description": "Tests du prototype autonome Suivi MIAGE",
   "scripts": {
-    "test": "node tests/parcours.cjs && node tests/tableaux-de-bord.cjs && node tests/administration.cjs && node tests/profil.cjs"
+    "test": "node tests/parcours.cjs && node tests/tableaux-de-bord.cjs && node tests/administration.cjs && node tests/profil.cjs && node tests/messagerie-flottante.cjs"
   },
   "devDependencies": {
     "playwright": "1.65.1"

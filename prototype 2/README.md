@@ -27,3 +27,9 @@ Cliquez sur l’avatar dans la barre supérieure ou au bas de la barre latérale
 Le profil étudiant permet de déclarer ou de corriger une demande de maître de stage avec son e-mail professionnel. Le responsable stages crée ensuite l’accès dans **Accès & demandes** ; si un maître est déjà lié, une modification reste une demande jusqu’à sa validation.
 
 N’utilisez **jamais de vraies données ni de vrai mot de passe** : le stockage et la connexion sont simulés côté navigateur, même si le mot de passe modifié n’est pas stocké en clair.
+
+## Messagerie flottante
+
+Le bouton **Messages**, en bas à droite, ouvre ou réduit la fenêtre de discussion sans quitter la page. Si plusieurs dossiers sont accessibles, choisissez-en un dans la liste. Les messages y sont les mêmes que dans l’onglet **Canal du projet** du dossier. L’option « Diffuser à tous » peut être désactivée pour choisir des destinataires ; pour un étudiant, le responsable stages reste destinataire obligatoire. Le responsable de formation n’a pas accès à la messagerie. Les brouillons sont conservés pendant la navigation dans la session, mais pas après un rechargement ou un changement d’acteur.
+
+Il s’agit toujours d’une simulation locale : les échanges sont enregistrés dans le navigateur, sans serveur ni synchronisation en temps réel entre appareils.
