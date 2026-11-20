@@ -1,0 +1,8 @@
+{
+  "name": "suivi-miage-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tests du prototype autonome Suivi MIAGE",
+  "scripts": { "test": "node tests/parcours.cjs" },
+  "devDependencies": { "playwright": "1.65.1" }
+}
