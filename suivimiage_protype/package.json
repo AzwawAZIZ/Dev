@@ -1,0 +1,12 @@
+{
+  "name": "suivi-miage-prototype-promax",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tests du prototype autonome Suivi MIAGE",
+  "scripts": {
+    "test": "node tests/parcours.cjs && node tests/tableaux-de-bord.cjs && node tests/administration.cjs && node tests/profil.cjs && node tests/messagerie-flottante.cjs && node tests/disponibilites-salons.cjs && node tests/import-missions-fichiers.cjs && node tests/pro-max.cjs && node tests/regles-perimetres.cjs && node tests/synchronisation.cjs && node tests/timeline.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.65.1"
+  }
+}
